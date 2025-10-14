@@ -36,15 +36,17 @@ module Fake6523(
                output _resetout,		// 3.3V /RESET
 					input c1lo,
 					input c1hi,
-					input c2lo,
-					input c2hi,
+					input cs0,
+					input cs1,
+					input c2,
                output rom_a15,
 					output rom_cs
 					);
 
 // ROM
 
-assign rom_cs = !(!c1lo || !c1hi || !c2lo || !c2hi);
+//assign rom_cs = !(!c1lo || !c1hi || !c2lo || !c2hi);
+assign rom_cs = !(!c1lo || !c1hi || !(c2 || cs0) || !(c2 || cs1));
 assign rom_a15 =!(!c1lo || !c1hi); // 1 for C1 (high 32K half, default for 32K ROM), 0 for C2 (low 32K half)
 
 // Fake6523
