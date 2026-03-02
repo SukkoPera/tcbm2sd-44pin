@@ -6,14 +6,14 @@ TCBM2SD is a CBM 1551 paddle replacement and/or mass storage device using an SD 
 ## Summary
 This is a 44-pin variant of [the original project by Maciej 'YTM/Elysium' Witkowiak](https://github.com/ytmytm/plus4-tcbm2sd).
 
-This version **requires** the usage of a [Plus4MultiExpander](https://github.com/SukkoPera/Plus4MultiExpander) or something similar. It is NOT compatible with the C64/C128.
+This version is still aimed at the C16/C116/Plus4 and it **requires** the usage of a [Plus4MultiExpander](https://github.com/SukkoPera/Plus4MultiExpander) or something similar. It is NOT compatible with the C64/C128.
 
 The connector (and, consequently, the shape) is the only difference, so please refer to [the original project](https://github.com/ytmytm/plus4-tcbm2sd) for all matters.
 
 Isn't Open Hardware great?
 
 ## Flashing
-since this variant of the board requires a few changes compared to the original, please make sure to flash the FPGA with the JED file from this project.
+Since this variant of the board requires a few changes compared to the original, please make sure to flash the FPGA with the JED file from this project.
 
 ## Releases
 If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/TCBM2SD/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
