@@ -2344,7 +2344,7 @@
 			(pintype "passive")
 			(uuid "e041c838-2958-4a5b-a0eb-31ed4c8689fc")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
+		(model "x${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
 			(offset
 				(xyz 6.25 1.5 0)
 			)
@@ -4052,7 +4052,7 @@
 			(pintype "passive")
 			(uuid "11ad5da5-ce2a-4751-b2f7-595072fe7fcb")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+		(model "x${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5150,7 +5150,7 @@
 			(pintype "passive")
 			(uuid "3cef67b0-2b40-456d-b88c-999a1755c8fd")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
+		(model "x${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
 			(offset
 				(xyz 6.25 1.5 0)
 			)
@@ -5202,7 +5202,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "24617353-6688-403f-be42-2cd9c9b7c7f6")
@@ -5214,7 +5214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5afa5e9c-ead1-43ff-9666-b6244b5bc70c")
@@ -5226,7 +5226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4f35bbf5-8d54-4d9d-a1a2-954d2220ad1f")
@@ -5469,7 +5469,7 @@
 			(pintype "passive")
 			(uuid "b213824e-2886-4488-afc0-acbad24d8dcd")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
+		(model "x${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7238,6 +7238,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3dModels/Arduino_Pro_Mini_5V_16MHz.step"
+			(offset
+				(xyz 7.5 -12.5 2.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -8257,7 +8268,7 @@
 			(pintype "passive")
 			(uuid "ad422dff-8f70-4237-904a-0aba414ca039")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
+		(model "x${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9771,6 +9782,17 @@
 		(model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.wrl"
 			(offset
 				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W15.24mm.wrl"
+			(offset
+				(xyz 0 0 4)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -27559,10 +27581,6 @@
 				(xy 156.891184 110.4885) (xy 157.723263 110.4885)
 			)
 		)
-	)
-	(group ""
-		(uuid "9c87f64a-353f-4cb0-b4e1-0d1e186df904")
-		(members "a185fea3-bf20-4aa3-b391-baacb87e0c66" "a38d4029-172e-4a10-96e5-61bc5f2be9bf")
 	)
 	(group ""
 		(uuid "455e73ba-9777-470d-b1ed-46e90ec11f17")

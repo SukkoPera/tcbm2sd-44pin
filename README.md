@@ -28,3 +28,4 @@ This documentation is distributed *as is* and WITHOUT ANY EXPRESS OR IMPLIED WAR
 
 ## Thanks
 - Thanks to Maciej for his amazing work and support.
+- 3D model of Arduino Pro Micro by [Toby](https://grabcad.com/library/arduino-pro-mini-5v-16mhz-1).
