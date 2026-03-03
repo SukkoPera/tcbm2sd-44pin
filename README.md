@@ -1,7 +1,7 @@
 # TCBM2SD 44-pin
 TCBM2SD is a CBM 1551 paddle replacement and/or mass storage device using an SD card interfacing with the Commodore C16/116/Plus4 simulating a TCBM bus 1551 disk drive.
 
-![Board](https://raw.githubusercontent.com/SukkoPera/TCBM2SD/master/img/render-top.png)
+![Board](https://raw.githubusercontent.com/SukkoPera/tcbm2sd-44pin/master/img/render-top.png)
 
 ## Summary
 This is a 44-pin variant of [the original project by Maciej 'YTM/Elysium' Witkowiak](https://github.com/ytmytm/plus4-tcbm2sd).
@@ -16,7 +16,7 @@ This variant of the board requires the FPGA to be flashed with the JED file from
 Apart from that, please refer to [the original project](https://github.com/ytmytm/plus4-tcbm2sd) for documentation, instructions, etc.
 
 ## Releases
-If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/TCBM2SD/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
+If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/tcbm2sd-44pin/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
 
 Every release is accompanied by its Bill Of Materials (BOM) file and any relevant notes about it, which you are recommended to read carefully.
 
